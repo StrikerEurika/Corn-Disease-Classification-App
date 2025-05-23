@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3
+db.sqlite3
+.mini_env/
+
+# deeplearning
+models/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.swp
+media/
+staticfiles/
+static/
+local_settings.py
+.DS_Store
+
+# React
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+data/
+# VSCode
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Others
+*.bak
+*.tmp
+.idea/
+*.iml
