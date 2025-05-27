@@ -99,6 +99,7 @@ function ImageUpload({ onImageUpload, imagePreview, analyzeImage, isAnalyzing, h
             </svg>
             <p className="text-gray-700 mb-2">Drag & drop a corn leaf image here</p>
             <p className="text-gray-500 text-sm">or</p>
+            <p className="text-gray-700 mb-2">Upload the Image via "Browse Image"</p>
           </div>
         )}
       </div>
@@ -113,7 +114,7 @@ function ImageUpload({ onImageUpload, imagePreview, analyzeImage, isAnalyzing, h
             className="hidden" 
           />
           <div className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer text-center transition-colors duration-300 w-full">
-            Browse Images
+            Browse Image
           </div>
         </label>
 
