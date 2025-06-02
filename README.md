@@ -33,7 +33,7 @@ corn-disease-classification-app/
     cd corn_disease_backend
     pip install -r requirements.txt
     ```
-    - For Backeend, you need to download the models packed on [google drive ](https://drive.google.com/file/d/1QfNRy3ef9Zbyo8PF9eb7fcI8Hq2ZBvbl/view?usp=sharing).
+    - For Backeend, you need to download the models packed on [google drive](https://drive.google.com/drive/folders/1p0-9U2pMMPlu2n7ZwQxJ9owdruUD2zMN?usp=sharing).
 
         - Download and Unzip the model folder
         
@@ -48,7 +48,7 @@ corn-disease-classification-app/
         │   ├── vgg19_model.keras
         ```
 
-    - For the frontend:
+    - For the frontend ([Node.js](https://nodejs.org/en/download) needed):
     ```bash
     cd ../corn_disease_frontend
     npm i

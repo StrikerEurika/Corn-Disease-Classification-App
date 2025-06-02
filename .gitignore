@@ -58,5 +58,6 @@ Thumbs.db
 .idea/
 *.iml
 *.zip
+*.pdf
 
 test.py
