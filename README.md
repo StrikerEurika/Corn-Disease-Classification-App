@@ -33,6 +33,21 @@ corn-disease-classification-app/
     cd corn_disease_backend
     pip install -r requirements.txt
     ```
+    - For Backeend, you need to download the models packed on [google drive ](https://drive.google.com/file/d/1QfNRy3ef9Zbyo8PF9eb7fcI8Hq2ZBvbl/view?usp=sharing).
+
+        - Download and Unzip the model folder
+        
+        - Place it in the `corn_disease_backend/models` directory where you should see:
+        ```
+        corn_disease_backend/
+        ├── models/    <-- This is where the directory of models should be placed
+        │   ├── densenet121_model.keras
+        │   ├── mobilenetv2_model.keras
+        │   ├── resnet50_model.keras
+        │   ├── vgg16_model.keras
+        │   ├── vgg19_model.keras
+        ```
+
     - For the frontend:
     ```bash
     cd ../corn_disease_frontend
