@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ImageUpload from '../components/ImageUpload';
 import Results from '../components/Results';
 import axios from 'axios';
@@ -23,7 +23,7 @@ function Home() {
     }
   };
 
-  // Handle model selection
+  // model selection
   const handleModelSelect = (model) => {
     setSelectedModel(model);  // Update the selected model
     setResults(null);         // Clear results so Analyze button is enabled
@@ -63,7 +63,7 @@ function Home() {
 
   return (
     <main className="flex-grow container mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow-lg p-6 max-w-5xl mx-auto">
+        <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6 max-w-5xl mx-auto">
           <h1 className="text-3xl font-bold text-green-800 mb-6 text-center">
             Corn Disease Classification
           </h1>

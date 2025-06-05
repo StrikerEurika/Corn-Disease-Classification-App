@@ -43,7 +43,7 @@ function Disease() {
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
-      <div className="bg-white rounded-lg shadow-lg p-6">
+      <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-green-800 mb-6 text-center">Common Corn Diseases</h1>
           <div className="h-1 w-40 bg-gradient-to-r from-green-400 to-green-600 mx-auto mb-8"></div>
@@ -56,10 +56,10 @@ function Disease() {
 
         <div className="space-y-12 mt-10">
           {diseases.map(disease => (
-            <div key={disease.id} className="border border-gray-200 rounded-lg shadow-md overflow-hidden bg-white">
+            <div key={disease.id} className="bg-white bg-opacity-50 border border-gray-200 rounded-lg shadow-md overflow-hidden  transition duration-300 hover:bg-green-100 hover:bg-opacity-50 hover:shadow-md">
               <div className="grid md:grid-cols-3 gap-0">
-                <div className="md:col-span-1 bg-green-50">
-                  <div className="h-full flex items-center justify-center p-4">
+                <div className="md:col-span-1">
+                  <div className=" h-full flex items-center justify-center p-4">
                     <div className="relative w-full h-64 rounded-lg overflow-hidden">
                       <img 
                         src={disease.image} 
