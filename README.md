@@ -68,7 +68,7 @@ corn-disease-classification-app/
 
 ## Brief Report
 
-This project is a web application for classifying corn leaf diseases using deep learning. The backend is built with Python (Flask or FastAPI) and handles image processing and prediction using a trained model. The frontend is developed with React, providing an interface for users to upload images and view results.
+This project is a web application for classifying corn leaf diseases using deep learning. The backend is built with Python (Django) and handles image processing and prediction using a trained model. The frontend is developed with React, providing an interface for users to upload images and view results.
 
 **Features:**
 - Upload corn leaf images for disease prediction.
